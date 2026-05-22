@@ -32,7 +32,13 @@ Orchestrator Agent
   └── Final Response Agent
 
 
+
+
+
 ## High-Level Architecture
+
+
+
 
                   USER REQUEST
                       │
@@ -43,7 +49,6 @@ Orchestrator Agent
                │     │      │
       ┌────────┘     │      └──────────┐
       ▼              ▼                 ▼
-
 ┌────────────┐ ┌────────────┐ ┌────────────────┐
 │Research    │ │Image Agent │ │Content Agent   │
 │Agent       │ │            │ │(Formatter)     │
@@ -57,7 +62,12 @@ Orchestrator Agent
 
 
 
+
+
+
  Agents
+
+ 
 1. Research Agent
 
 Responsible for:
@@ -71,6 +81,8 @@ Uses:
 
 Tavily
 MCP tools (optional)
+
+
 2. Image Agent
 
 Responsible for:
@@ -87,6 +99,8 @@ OR
 image generation API
 OR
 stock image APIs
+
+
 3. Writer Agent
 
 Responsible for:
@@ -95,6 +109,8 @@ Structuring content
 Writing article/report/essay
 Organizing sources
 Formatting final answer
+
+
 4. Orchestrator Agent
 
 Responsible for:
